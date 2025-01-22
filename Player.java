@@ -11,4 +11,13 @@ public class Player {
     public void setPlayerScore(int s) {
         score = s;
     }
+
+    public String getName(){
+        return name;
+    }
+
+    public int getScore(){
+        return score;
+    }
+
 }
