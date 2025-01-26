@@ -3,9 +3,9 @@ public class BowlingTeamApp {
     public static void main(String[] args) {
         Team team = new Team();
 
-        team.addPlayer("Alice", 0);
-        team.addPlayer("Bob", 0);
-        team.addPlayer("Charlie", 0);
+        team.addPlayer("Alice", 4);
+        team.addPlayer("Bob", 7);
+        team.addPlayer("Charlie", 10);
 
         System.out.println("Players:");
         team.displayPlayers();

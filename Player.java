@@ -3,9 +3,13 @@ public class Player {
     private String name = "";
     private int score;
 
-    public Player (String n) {
+    public Player(){
+        
+    }
+
+    public Player (String n, int s) {
         name = n;
-        score = 0;
+        score = s;
     }
 
     public void setPlayerScore(int s) {

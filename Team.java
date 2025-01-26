@@ -1,15 +1,28 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.List;
+
 
 class Team {
     private ArrayList<Player> players = new ArrayList<>();
 
-    public void addPlayer(String name) {
-        players.add(new Player(name));
+    public void addPlayer(String n, int s) {
+        players.add(new Player(n,s));
     }
 
     public void removePlayer(String name) {
-        players.removeIf(player -> player.getName().equalsIgnoreCase(name));
-    }
+        Iterator<Player> iterator = players.iterator();
+        while (iterator.hasNext()) {
+            Player player = iterator.next();
+            if (player.getName().equalsIgnoreCase(name)) { // ignore upper case or lower case.
+                iterator.remove();
+                break; // Stop after removing the first match.
+            }
+        }
+    } // if match is not found nothing happens.
+    
+    
 
     public void displayPlayers() {
         for (Player player : players) {
