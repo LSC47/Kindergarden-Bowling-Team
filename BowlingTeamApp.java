@@ -2,6 +2,13 @@ import java.io.IOException;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+
+
+// IMPORTANT
+// Compile with: javac -cp libs/gson-2.10.1.jar:. BowlingTeamApp.java
+// Run with: java -cp .:libs/gson-2.10.1.jar BowlingTeamApp
+// Windows (On Windows, use ; instead of : in the classpath): java -cp .;libs/gson-2.10.1.jar BowlingTeamApp
+
 public class BowlingTeamApp {
 
     public static void main(String[] args) {
