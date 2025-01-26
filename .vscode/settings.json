@@ -1,0 +1,20 @@
+{
+    "java.settings.url": "/Users/lucaschough/Desktop/Programing stuff/Java/jdk-19.0.1.jdk/Contents/Home/bin",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13.5,
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
+    "code-runner.saveFileBeforeRun": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Ayu Dark",
+    "redhat.telemetry.enabled": true,
+    "git.autofetch": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+
+    "java.project.referencedLibraries": [
+        "libs/gson-2.11.0.jar"
+    ]
+}

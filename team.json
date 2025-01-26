@@ -1,14 +1,1 @@
-[
-  {
-    "name": "Alice",
-    "score": 4
-  },
-  {
-    "name": "Bob",
-    "score": 7
-  },
-  {
-    "name": "Charlie",
-    "score": 10
-  }
-]
+[{"name":"Alice","score":4},{"name":"Charlie","score":10},{"name":"Derek","score":15},{"name":"Derek","score":15}]
