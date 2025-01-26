@@ -22,6 +22,17 @@ class Team {
         }
     }
 
+    // Update a player's score
+    public void updatePlayerScore(String name, int newScore) {
+        for (Player player : players) {
+            if (player.getName().equalsIgnoreCase(name)) {
+                player.setPlayerScore(newScore);
+                return; // Stop searching once we update the score
+            }
+        }
+        System.out.println("Player not found!");
+    }
+
     // Save team data to a JSON file
     public void saveToJSON(String filename) throws IOException {
         Gson gson = new Gson();
